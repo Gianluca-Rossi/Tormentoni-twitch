@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "MI_DISSOCIO_icona.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "MI_DISSOCIO_icona@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "MI_DISSOCIO_icona@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

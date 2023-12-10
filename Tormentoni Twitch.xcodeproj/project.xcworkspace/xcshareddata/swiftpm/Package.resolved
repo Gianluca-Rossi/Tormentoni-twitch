@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Shiny",
+        "repositoryURL": "https://github.com/efremidze/Shiny",
+        "state": {
+          "branch": null,
+          "revision": "3e7c48c409252d80290b07e245421670d1528598",
+          "version": "2.0.2"
+        }
+      },
+      {
+        "package": "SwiftUIPager",
+        "repositoryURL": "https://github.com/fermoya/SwiftUIPager.git",
+        "state": {
+          "branch": null,
+          "revision": "a81dd730104e15af3a1776afe1d15e1f88661cf0",
+          "version": "1.10.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

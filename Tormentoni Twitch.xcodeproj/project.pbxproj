@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51B9DCC24FFFA190071985F /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = C51B9DCB24FFFA190071985F /* SwiftUIPager */; };
+		C51B9DCE250001840071985F /* PaginatedPhrasesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B9DCD250001840071985F /* PaginatedPhrasesList.swift */; };
+		C51B9DD2250058F40071985F /* EmbeddedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B9DD1250058F40071985F /* EmbeddedExampleView.swift */; };
+		C51B9DD42500760A0071985F /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B9DD32500760A0071985F /* ScrollableView.swift */; };
+		C51B9DD6250117890071985F /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B9DD5250117890071985F /* ButtonStyles.swift */; };
+		C51B9DD9250127A80071985F /* Shiny in Frameworks */ = {isa = PBXBuildFile; productRef = C51B9DD8250127A80071985F /* Shiny */; };
+		C5248F4F24F5D84000FB30D8 /* Frase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5248F4E24F5D84000FB30D8 /* Frase.swift */; };
+		C5248F5324F5FD7800FB30D8 /* CanteenBNBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5248F5124F5FD7800FB30D8 /* CanteenBNBold.otf */; };
+		C5248F5424F5FD7800FB30D8 /* Abyss.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5248F5224F5FD7800FB30D8 /* Abyss.otf */; };
+		C5248F5724F6FA8100FB30D8 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5248F5624F6FA8100FB30D8 /* RoundedCorner.swift */; };
+		C5248F5B24F6FB1A00FB30D8 /* CompactHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5248F5A24F6FB1A00FB30D8 /* CompactHeader.swift */; };
+		C5248F5D24F6FC9B00FB30D8 /* Streamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5248F5C24F6FC9B00FB30D8 /* Streamer.swift */; };
+		C5248F5F24F6FEE900FB30D8 /* UIRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5248F5E24F6FEE900FB30D8 /* UIRoundButton.swift */; };
+		C5248F6124F712A800FB30D8 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5248F6024F712A800FB30D8 /* Header.swift */; };
+		C59948C924F5BCA600BF04D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59948C824F5BCA600BF04D7 /* AppDelegate.swift */; };
+		C59948CB24F5BCA600BF04D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59948CA24F5BCA600BF04D7 /* SceneDelegate.swift */; };
+		C59948CD24F5BCA600BF04D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59948CC24F5BCA600BF04D7 /* ContentView.swift */; };
+		C59948CF24F5BCA900BF04D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59948CE24F5BCA900BF04D7 /* Assets.xcassets */; };
+		C59948D224F5BCA900BF04D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59948D124F5BCA900BF04D7 /* Preview Assets.xcassets */; };
+		C59948D524F5BCA900BF04D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59948D324F5BCA900BF04D7 /* LaunchScreen.storyboard */; };
+		C5ABD0B625048969000B3546 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABD0B525048969000B3546 /* BlurView.swift */; };
+		C5ABD0B825052A43000B3546 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5ABD0B725052A43000B3546 /* Colors.xcassets */; };
+		C5ABD0BA25052C51000B3546 /* ColorLinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABD0B925052C51000B3546 /* ColorLinker.swift */; };
+		C5C42D7E24F8646B000472F0 /* CP.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C5C42D7D24F8646B000472F0 /* CP.WAV */; };
+		C5C42D8024F86472000472F0 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C42D7F24F86472000472F0 /* Sound.swift */; };
+		C5CCB89A25030CC0001E6DDD /* Headerv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCB89925030CC0001E6DDD /* Headerv2.swift */; };
+		C5EACDB724F8A71800898E1F /* TrackableScrollView in Resources */ = {isa = PBXBuildFile; fileRef = C5EACDB624F8A71800898E1F /* TrackableScrollView */; };
+		C5EACDBA24F8A80E00898E1F /* ScrollOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EACDB824F8A80E00898E1F /* ScrollOffsetPreferenceKey.swift */; };
+		C5EACDBB24F8A80E00898E1F /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EACDB924F8A80E00898E1F /* TrackableScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C51B9DCD250001840071985F /* PaginatedPhrasesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedPhrasesList.swift; sourceTree = "<group>"; };
+		C51B9DD1250058F40071985F /* EmbeddedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedExampleView.swift; sourceTree = "<group>"; };
+		C51B9DD32500760A0071985F /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		C51B9DD5250117890071985F /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		C5248F4E24F5D84000FB30D8 /* Frase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frase.swift; sourceTree = "<group>"; };
+		C5248F5124F5FD7800FB30D8 /* CanteenBNBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CanteenBNBold.otf; sourceTree = "<group>"; };
+		C5248F5224F5FD7800FB30D8 /* Abyss.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Abyss.otf; sourceTree = "<group>"; };
+		C5248F5624F6FA8100FB30D8 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		C5248F5A24F6FB1A00FB30D8 /* CompactHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactHeader.swift; sourceTree = "<group>"; };
+		C5248F5C24F6FC9B00FB30D8 /* Streamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streamer.swift; sourceTree = "<group>"; };
+		C5248F5E24F6FEE900FB30D8 /* UIRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundButton.swift; sourceTree = "<group>"; };
+		C5248F6024F712A800FB30D8 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C59948C524F5BCA600BF04D7 /* Tormentoni Twitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tormentoni Twitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59948C824F5BCA600BF04D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C59948CA24F5BCA600BF04D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C59948CC24F5BCA600BF04D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C59948CE24F5BCA900BF04D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C59948D124F5BCA900BF04D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C59948D424F5BCA900BF04D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C59948D624F5BCA900BF04D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5ABD0B525048969000B3546 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		C5ABD0B725052A43000B3546 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C5ABD0B925052C51000B3546 /* ColorLinker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLinker.swift; sourceTree = "<group>"; };
+		C5C42D7D24F8646B000472F0 /* CP.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CP.WAV; sourceTree = "<group>"; };
+		C5C42D7F24F86472000472F0 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		C5CCB89925030CC0001E6DDD /* Headerv2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headerv2.swift; sourceTree = "<group>"; };
+		C5EACDB624F8A71800898E1F /* TrackableScrollView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TrackableScrollView; sourceTree = "<group>"; };
+		C5EACDB824F8A80E00898E1F /* ScrollOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetPreferenceKey.swift; sourceTree = "<group>"; };
+		C5EACDB924F8A80E00898E1F /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59948C224F5BCA600BF04D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51B9DD9250127A80071985F /* Shiny in Frameworks */,
+				C51B9DCC24FFFA190071985F /* SwiftUIPager in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5248F4D24F5D83200FB30D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5C42D7F24F86472000472F0 /* Sound.swift */,
+				C5248F4E24F5D84000FB30D8 /* Frase.swift */,
+				C5248F5C24F6FC9B00FB30D8 /* Streamer.swift */,
+				C5ABD0B925052C51000B3546 /* ColorLinker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5248F5024F5FD6100FB30D8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C5248F5224F5FD7800FB30D8 /* Abyss.otf */,
+				C5248F5124F5FD7800FB30D8 /* CanteenBNBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C5248F5524F6FA6D00FB30D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5248F5624F6FA8100FB30D8 /* RoundedCorner.swift */,
+				C51B9DD1250058F40071985F /* EmbeddedExampleView.swift */,
+				C5248F5A24F6FB1A00FB30D8 /* CompactHeader.swift */,
+				C5248F5E24F6FEE900FB30D8 /* UIRoundButton.swift */,
+				C5248F6024F712A800FB30D8 /* Header.swift */,
+				C5CCB89925030CC0001E6DDD /* Headerv2.swift */,
+				C51B9DCD250001840071985F /* PaginatedPhrasesList.swift */,
+				C51B9DD32500760A0071985F /* ScrollableView.swift */,
+				C51B9DD5250117890071985F /* ButtonStyles.swift */,
+				C5ABD0B525048969000B3546 /* BlurView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C59948BC24F5BCA600BF04D7 = {
+			isa = PBXGroup;
+			children = (
+				C59948C724F5BCA600BF04D7 /* Tormentoni Twitch */,
+				C59948C624F5BCA600BF04D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59948C624F5BCA600BF04D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59948C524F5BCA600BF04D7 /* Tormentoni Twitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C59948C724F5BCA600BF04D7 /* Tormentoni Twitch */ = {
+			isa = PBXGroup;
+			children = (
+				C5EACDB824F8A80E00898E1F /* ScrollOffsetPreferenceKey.swift */,
+				C5EACDB924F8A80E00898E1F /* TrackableScrollView.swift */,
+				C5EACDB624F8A71800898E1F /* TrackableScrollView */,
+				C5C42D7C24F8645E000472F0 /* Sounds */,
+				C5248F5524F6FA6D00FB30D8 /* View */,
+				C5248F5024F5FD6100FB30D8 /* Fonts */,
+				C5248F4D24F5D83200FB30D8 /* Model */,
+				C59948C824F5BCA600BF04D7 /* AppDelegate.swift */,
+				C59948CA24F5BCA600BF04D7 /* SceneDelegate.swift */,
+				C59948CC24F5BCA600BF04D7 /* ContentView.swift */,
+				C59948CE24F5BCA900BF04D7 /* Assets.xcassets */,
+				C5ABD0B725052A43000B3546 /* Colors.xcassets */,
+				C59948D324F5BCA900BF04D7 /* LaunchScreen.storyboard */,
+				C59948D624F5BCA900BF04D7 /* Info.plist */,
+				C59948D024F5BCA900BF04D7 /* Preview Content */,
+			);
+			path = "Tormentoni Twitch";
+			sourceTree = "<group>";
+		};
+		C59948D024F5BCA900BF04D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C59948D124F5BCA900BF04D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5C42D7C24F8645E000472F0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C5C42D7D24F8646B000472F0 /* CP.WAV */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59948C424F5BCA600BF04D7 /* Tormentoni Twitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59948D924F5BCA900BF04D7 /* Build configuration list for PBXNativeTarget "Tormentoni Twitch" */;
+			buildPhases = (
+				C59948C124F5BCA600BF04D7 /* Sources */,
+				C59948C224F5BCA600BF04D7 /* Frameworks */,
+				C59948C324F5BCA600BF04D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tormentoni Twitch";
+			packageProductDependencies = (
+				C51B9DCB24FFFA190071985F /* SwiftUIPager */,
+				C51B9DD8250127A80071985F /* Shiny */,
+			);
+			productName = "Tormentoni Twitch";
+			productReference = C59948C524F5BCA600BF04D7 /* Tormentoni Twitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59948BD24F5BCA600BF04D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Gianluca Rossi";
+				TargetAttributes = {
+					C59948C424F5BCA600BF04D7 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = C59948C024F5BCA600BF04D7 /* Build configuration list for PBXProject "Tormentoni Twitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C59948BC24F5BCA600BF04D7;
+			packageReferences = (
+				C51B9DCA24FFFA190071985F /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
+				C51B9DD7250127A80071985F /* XCRemoteSwiftPackageReference "Shiny" */,
+			);
+			productRefGroup = C59948C624F5BCA600BF04D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59948C424F5BCA600BF04D7 /* Tormentoni Twitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59948C324F5BCA600BF04D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5248F5424F5FD7800FB30D8 /* Abyss.otf in Resources */,
+				C59948D524F5BCA900BF04D7 /* LaunchScreen.storyboard in Resources */,
+				C59948D224F5BCA900BF04D7 /* Preview Assets.xcassets in Resources */,
+				C5C42D7E24F8646B000472F0 /* CP.WAV in Resources */,
+				C5248F5324F5FD7800FB30D8 /* CanteenBNBold.otf in Resources */,
+				C5ABD0B825052A43000B3546 /* Colors.xcassets in Resources */,
+				C59948CF24F5BCA900BF04D7 /* Assets.xcassets in Resources */,
+				C5EACDB724F8A71800898E1F /* TrackableScrollView in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59948C124F5BCA600BF04D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EACDBA24F8A80E00898E1F /* ScrollOffsetPreferenceKey.swift in Sources */,
+				C51B9DCE250001840071985F /* PaginatedPhrasesList.swift in Sources */,
+				C5248F5F24F6FEE900FB30D8 /* UIRoundButton.swift in Sources */,
+				C51B9DD2250058F40071985F /* EmbeddedExampleView.swift in Sources */,
+				C5248F6124F712A800FB30D8 /* Header.swift in Sources */,
+				C5ABD0B625048969000B3546 /* BlurView.swift in Sources */,
+				C5EACDBB24F8A80E00898E1F /* TrackableScrollView.swift in Sources */,
+				C5248F5D24F6FC9B00FB30D8 /* Streamer.swift in Sources */,
+				C5CCB89A25030CC0001E6DDD /* Headerv2.swift in Sources */,
+				C5248F5B24F6FB1A00FB30D8 /* CompactHeader.swift in Sources */,
+				C59948C924F5BCA600BF04D7 /* AppDelegate.swift in Sources */,
+				C5C42D8024F86472000472F0 /* Sound.swift in Sources */,
+				C51B9DD42500760A0071985F /* ScrollableView.swift in Sources */,
+				C59948CB24F5BCA600BF04D7 /* SceneDelegate.swift in Sources */,
+				C5ABD0BA25052C51000B3546 /* ColorLinker.swift in Sources */,
+				C5248F5724F6FA8100FB30D8 /* RoundedCorner.swift in Sources */,
+				C51B9DD6250117890071985F /* ButtonStyles.swift in Sources */,
+				C59948CD24F5BCA600BF04D7 /* ContentView.swift in Sources */,
+				C5248F4F24F5D84000FB30D8 /* Frase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C59948D324F5BCA900BF04D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59948D424F5BCA900BF04D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C59948D724F5BCA900BF04D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C59948D824F5BCA900BF04D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C59948DA24F5BCA900BF04D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tormentoni Twitch/Preview Content\"";
+				DEVELOPMENT_TEAM = 72BH6SBX28;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tormentoni Twitch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.chemmerd.Tormentoni-Twitch2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C59948DB24F5BCA900BF04D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tormentoni Twitch/Preview Content\"";
+				DEVELOPMENT_TEAM = 72BH6SBX28;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tormentoni Twitch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.chemmerd.Tormentoni-Twitch2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59948C024F5BCA600BF04D7 /* Build configuration list for PBXProject "Tormentoni Twitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59948D724F5BCA900BF04D7 /* Debug */,
+				C59948D824F5BCA900BF04D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59948D924F5BCA900BF04D7 /* Build configuration list for PBXNativeTarget "Tormentoni Twitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59948DA24F5BCA900BF04D7 /* Debug */,
+				C59948DB24F5BCA900BF04D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C51B9DCA24FFFA190071985F /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.4;
+			};
+		};
+		C51B9DD7250127A80071985F /* XCRemoteSwiftPackageReference "Shiny" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/efremidze/Shiny";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C51B9DCB24FFFA190071985F /* SwiftUIPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C51B9DCA24FFFA190071985F /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			productName = SwiftUIPager;
+		};
+		C51B9DD8250127A80071985F /* Shiny */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C51B9DD7250127A80071985F /* XCRemoteSwiftPackageReference "Shiny" */;
+			productName = Shiny;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C59948BD24F5BCA600BF04D7 /* Project object */;
+}
